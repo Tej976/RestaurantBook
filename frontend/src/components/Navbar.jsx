@@ -16,7 +16,7 @@ const Navbar = () => {
                         <Link to={element.link} key={element.id} spy={true} smooth={true} duration={500}>
                             {element.title}
                         </Link>
-                    )
+                    );
                 })}
         </div>
         <button className='menuBtn'>OUR MENU</button>
@@ -25,7 +25,7 @@ const Navbar = () => {
         <GiHamburgerMenu/>
       </div>
     </nav>
-  )
+  );
 }
 
 export default Navbar;
